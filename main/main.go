@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	fmt.Println("game Service get wa1111y.")
+	fmt.Println("game Service get way.")
 	i := 0
 	gsgetway.Instance.Init("", "127.0.0.1:8080")
 	gsgetway.Instance.Start()
