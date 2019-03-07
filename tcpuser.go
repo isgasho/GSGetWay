@@ -2,6 +2,7 @@ package gsgetway
 
 import (
 	"context"
+	"fmt"
 	"net"
 )
 
@@ -26,5 +27,6 @@ func (this *TcpUser) Write(dach chan byte) error {
 }
 
 func (this *TcpUser) Process(conn net.Conn) {
+	fmt.Println("tcpuser process")
 
 }
