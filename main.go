@@ -7,4 +7,6 @@ import (
 
 func main() {
 	fmt.Println("game Service get way.")
+	gsgetway.interface.init("","127.0.0.1:8080")
+
 }
